@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>hikowebpercobaan</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="aset/logo.png" alt="logo" class="logo-img" />
+				<h1 class="logo-title">Hiko W3B</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li>
+					<li><a href="heru1209h@gmail.com">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, HIKO Here!</p>
+				<p class="description">anda butuh DANA?, YA sialakan dowload di Playstore :D</p>
+				<img src="aset/hiko1.jpg" alt="hiko" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Saya Adalah manusia </p>
+				<p class="description">Ngoding aja dulu, jagonya belakangan.</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp(hai,kenalan dong)">CHAT JIKA INGIN KENAL</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="jasa">
+						<div class="card-item">
+							<img src="icon/iconhobi.png" alt="icon 1" class="icon"/>
+							<p  class="card-title">HOBI SAYA 
+							</p>
+							<p class="card-description" onclick="redirhobi.html">klik</p>
+						</div>
+						<div class="card-item">
+							<img src="icon/iconfoto.png" alt="icon 2"  class="icon"/>
+							<p class="card-title">FOTO</p>
+							<p <a >klik</p>
+						</div>
+						<div class="card-item">
+							<img src="icon/iconreview.png" alt="icon 3"  class="icon"/>
+							<p class="card-title">99 Review</p>
+			 				<p class="card-description">Mereka senang dengan saya.</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; hiko w3b 2022</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/iko_enaktau"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6283179400838"
+			}
+			
+			function redirhobi.html() {
+			  window.location.href = "hobi.html"
+			}
+		</script>
+	</body
+</html>
